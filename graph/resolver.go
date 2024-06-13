@@ -8,4 +8,5 @@ import "github.com/Elbercaio/gqlgen-todos/internal/database"
 
 type Resolver struct{
 	UserDb *database.User
+	TodoDb *database.Todo
 }
